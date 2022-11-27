@@ -4,6 +4,14 @@ import UIKit
 /*
  Structs: complex data types made up of multiple values. They are common in SwiftUI for modeling
  JSON responses, and acting as a data source for manipulation.
+ 
+ Also - static keyword is used to ensure a variable or method belongs to that struct or
+ class.
+ 
+ public     declarations are accessible from everywhere
+ private    declarations are accessible only within the defined class or struct
+ fileprivate    declarations are accessible only within the current swift file
+ internal     declarations are accessible only within the defined module (default)
  */
 
 /**

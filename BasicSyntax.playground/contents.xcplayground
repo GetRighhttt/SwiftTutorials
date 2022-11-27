@@ -4,5 +4,6 @@
         <page name='Intermediate'/>
         <page name='Untitled Page'/>
         <page name='Beginner'/>
+        <page name='Functions'/>
     </pages>
 </playground>

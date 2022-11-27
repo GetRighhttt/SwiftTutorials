@@ -14,7 +14,7 @@ import UIKit
 var myString:String? = nil
 
 if myString != nil {
-   print(myString)
+    print(myString ?? "0")
 } else {
    print("myString has nil value") // output - myString has nil value
 }
@@ -27,7 +27,7 @@ var myString2:String?
 myString2 = "Hello, Swift 4!"
 
 if myString2 != nil {
-   print(myString2)
+    print(myString2 ?? "1")
 } else {
    print("myString has nil value") // output - Optional("Hello, Swift 4!")
 }
@@ -40,7 +40,7 @@ var myString3:String?
 myString3 = "Hello, Swift 4!"
 
 if myString3 != nil {
-   print(myString3)
+   print(myString3 ?? "2")
 } else {
    print("myString has nil value") // output - Hello, Swift 4!
 }
@@ -52,7 +52,7 @@ var myString4:String!
 myString4 = "Hello, Swift 4!"
 
 if myString4 != nil {
-   print(myString4)
+    print(myString4 ?? "3")
 } else {
    print("myString has nil value")
 }

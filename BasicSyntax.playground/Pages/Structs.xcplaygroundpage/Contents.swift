@@ -34,3 +34,11 @@ print(stefan) // Person(clothes: "Balenciaga", height: "5\'10")
 
 print(stefanCopy) // Person(clothes: "H&M", height: "5\'10")
 
+/**
+ output:
+ 
+ I'm wearing Balenciaga and I'm 5'10 tall.
+ I'm wearing H&M and I'm 5'10 tall.
+ */
+stefan.getDetails()
+stefanCopy.getDetails()

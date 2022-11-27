@@ -1,4 +1,8 @@
+//: [Previous](@previous)
+
+import Foundation
 import UIKit
+
 // these tutorials assume you are somewhat experienced with coding and want to learn swift
 
 /*
@@ -91,3 +95,6 @@ thisNumber != number2 // not equal to - true
 var isAMan = false
 isAMan // output - false
 !isAMan // output - true
+
+
+//: [Next](@next)

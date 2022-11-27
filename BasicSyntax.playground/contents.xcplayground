@@ -6,5 +6,7 @@
         <page name='Functions'/>
         <page name='Optionals'/>
         <page name='Enums'/>
+        <page name='Structs'/>
+        <page name='Classes'/>
     </pages>
 </playground>

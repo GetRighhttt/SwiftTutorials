@@ -5,6 +5,8 @@ import UIKit
  Structs: complex data types made up of multiple values. They are common in SwiftUI for modeling
  JSON responses, and acting as a data source for manipulation.
  
+ Structs are immutable in Swift, so they have a fixed value and we can't change them.
+ 
  Also - static keyword is used to ensure a variable or method belongs to that struct or
  class.
  

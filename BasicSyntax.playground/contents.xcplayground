@@ -9,5 +9,6 @@
         <page name='Structs'/>
         <page name='Classes'/>
         <page name='Properties'/>
+        <page name='Closures'/>
     </pages>
 </playground>
